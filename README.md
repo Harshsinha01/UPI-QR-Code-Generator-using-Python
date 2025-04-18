@@ -25,6 +25,23 @@ With this tool, users can generate and display a QR code linked to their UPI ID 
 bash
 - `pip install qrcode[pil]`
 
-🔒 Disclaimer
+## 🚀 How to Use
+1. Run the Script
+bash
+`python generate_upi_qr.py`
+
+2. Input Details
+- Enter your UPI ID (e.g., username@bank)
+- Choose the desired payment app (PhonePe, Paytm, or Google Pay)
+
+3. QR Code Display
+- A scannable QR code will be displayed
+- Anyone can scan it via the selected UPI app to send payments
+
+## 🔒 Disclaimer
 - Always verify QR codes before using them for payments.
 - This tool is for personal or demonstration purposes only.
+
+## 🙌 Acknowledgments
+- qrcode Python library
+- UPI deep linking standards by NPCI
